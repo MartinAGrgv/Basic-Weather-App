@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en" id="htmlBackground">
+<head>
+  <meta charset="UTF-8">
+  <title>Weather</title>
+  <link href="https://fonts.googleapis.com/css?family=Bree+Serif|Open+Sans:400,700" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+<body>
+<div class="container">
+  <d  iv class="contentBox">
+    <div class="navbar">
+      <div class="weatherNavbar">
+        <img src="cloud with sun no bg.png" class="weatherNavbar">
+        <p class="weatherNavbar"><strong>Weather</strong></p>
+      </div>
+      <div class="citiesNavbar">
+        <img src="561184.png" class="citiesNavbar">
+        <p class="citiesNavbar"><strong>Cities</strong></p>
+      </div>
+      <div class="mapNavbar">
+        <img class="mapNavbar" src="map icon no bg.png">
+        <p class="mapNavbar"><strong>Map</strong></p>
+      </div>
+      <div class="settingsNavbar">
+        <img class="settingsNavbar" src="settings-icon-2048x2046-cw28eevx.png">
+        <p class="settingsNavbar"><strong>Settings</strong></p>
+      </div>
+    </div>
+    <div class="main">
+      <div class="searchBarr">
+          <input class="searchBar" type="text" placeholder="Search for cities">
+      </div>
+      <div class="city">
+        <div class="cityName">
+          <h2 class="currentCity"><strong>Loading</strong></h2>
+          <p>Chance of rain 0%</p>
+          <h4 class="degree">Loading</h4>
+        </div>
+        <div class="currentWeatherImg">
+          <img src="sun no bg 2.png" alt="photo of the sun ">
+        </div>
+      </div>
+      <div class="todayForecast">
+          <h4>Todays Forecast</h4>
+          <div>
+            <p class="now">6:00 AM</p>
+            <img src="cloud.png" src="oblak">
+            <p class="nowdegree">25°</p>
+          </div>
+          <div>
+            <p class="threeHoursLater">9:00 AM</p>
+            <img src="sunwithclouds.png">
+            <p class="threeHoursLaterdegree">28°</p>
+          </div>
+          <div>
+            <p class="sixHoursLater">12:00 PM</p>
+            <img src="sunwithclouds.png">
+            <p class="sixHoursLaterdegree">33°</p>
+          </div>
+          <div>
+            <p class="nineHoursLater">3:00 PM</p>
+            <img src="sunwithclouds.png">
+            <p class="nineHoursLaterdegree">34°</p>
+          </div>
+          <div>
+            <p class="twelveHoursLater">6:00 PM</p>
+            <img src="sunwithclouds.png">
+            <p class="twelveHoursLaterdegree">32°</p>
+          </div>
+          <div>
+            <p class="fifteenHoursLater">9:00 PM</p>
+            <img src="sunwithclouds.png">
+            <p class="fifteenHoursLaterdegree">30°</p>
+          </div>
+      </div>
+      <div class="airCondition">
+        <h4>Air Condition</h4>
+        <div class="item item-1">
+          <div class="row">
+            <span class="material-symbols-outlined">device_thermostat</span>
+            <p>Real Feel</p>
+          </div>
+          <p class="realFeel loading">loading</p>
+        </div>
+        <div class="item item-2">
+          <div class="row">
+            <span class="material-symbols-outlined">air</span>
+            <p>Wind</p>
+          </div>
+          <p class="windSpeed loading">loading</p>
+        </div>
+        <div class="item item-3">
+          <div class="row">
+            <span class="material-symbols-outlined">water_drop</span>
+            <p>Humidity</p>
+          </div>
+          <p class="humidityLevel loading">Loading</p>
+        </div>
+        <div class="item item-4">
+          <div class="row">
+            <span class="material-symbols-outlined">speed</span>
+            <p>Pressure</p>
+          </div>
+          <p class="pressure loading">loading</p>
+        </div>
+        <button>See More</button>
+      </div>
+    </div>
+    <div class="sevenDayForecast">
+      <h7>7-Day Forecast</h7>
+      <div>
+        <p>Today</p>
+        <p>Sunny</p>
+        <p><strong>37</strong><span style="color: #9399A2;">/21</span></p>  
+      </div>
+      <div>
+        <p>Tue</p>
+        <p>Sunny</p>
+        <p><strong>37</strong><span style="color: #9399A2;">/21</span></p>  
+      </div>
+      <div>
+        <p>Wed</p>
+        <p>Sunny</p>
+        <p><strong>37</strong><span style="color: #9399A2;">/21</span></p>  
+      </div>
+      <div>
+        <p>Thu</p>
+        <p>Cloudy</p>
+        <p><strong>37</strong><span style="color: #9399A2;">/21</span></p>  
+      </div>
+      <div>
+        <p>Fri</p>
+        <p>Cloudy</p>
+        <p><strong>37</strong><span style="color: #9399A2;">/21</span></p>  
+      </div>
+      <div>
+        <p>Sat</p>
+        <p>Rainy</p>
+        <p><strong>37</strong><span style="color: #9399A2;">/21</span></p>      
+      </div>
+      <div>
+        <p>Sun</p>
+        <p>Sunny</p>
+        <p><strong>37</strong><span style="color: #9399A2;">/21</span></p>
+      </div>
+    </div>
+  </div>
+</div>
+  <script src="js/app.js"></script>
+</body>
+</html>
